@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+} 
+.header1{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background: rgb(0,127,255);
+    background: radial-gradient(circle, rgba(0,127,255,1) 0%, rgba(0,95,255,1) 100%); 
+
+    
+}
+.dentro_header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.logo{
+    height: 100%;
+    display: table;
+    float: left;
+}
+.logo h1 {
+    color: #c82848;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 800;
+}
+.logo span{
+    font-weight: 800;
+    color: white;
+}
+.navegacao{
+    float: right;
+    height: 100%;
+}
+.navegacao a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0 20px;
+}
+.navegacao a :last-child{
+    padding-right: 0
+}
+.navegacao a li {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    transition: transform 0.5s; 
+}
+.navegacao a li:hover{
+    transform: scale(1.5);   
+    color: #c82848;
+}
+.logoecho{ 
+    margin-left: 135px;
+    margin-top: -80px;
+}
+.header_one{
+    height: 600px;
+    background-image: url('../img/header2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+}
+.header_one > .p1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-family: 'Montserrat';
+}
+p{
+    color: white;
+    font-family: 'Montserrat';
+    width: 80%;
+    margin: 0 auto;
+}
+
+.buttonOne{
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    background-color: #dc143c;
+    color: white;
+    padding: 12px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 5px 0 #9b0624;
+    transition: opacity 4s;
+    margin-top: 15%;
+    cursor: pointer; 
+}
+.buttonOne:hover{
+    opacity: 75%;
+    background-color:#9b0624
+}
+
+.header_two{
+    height: 200px;
+    background: rgb(0,127,255);
+    background: radial-gradient(circle, rgba(0,127,255,1) 0%, rgba(0,95,255,1) 100%); 
+    text-align: center;
+    align-items: center;
+    padding: 2%;
+}
+.header_two > h1{
+    color: white;
+    font-family: 'Montserrat';
+    padding: 20px;
+}
+#p1{
+    font-family: 'Montserrat';
+    font-size: 36px;
+    padding: 20px;
+    font-weight: bold;
+    
+   
+}
+#p2{
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+.header_two > ul > li{
+    list-style: none;
+    display: inline-block;
+}
+.header_two > ul > li > img{
+    width: 80px;
+    height: 80px;
+}
+.galeria{
+    display: inline-block;
+}
+.galeria_item > p{
+    color: white;
+    font-family: 'Montserrat';
+} 
+.galeria_item{
+    margin: 5px;
+    width: 80px;
+    float: left;
+    transition: transform 2s; 
+}
+.galeria_item:hover{
+    transform: scale(1.5);
+}
+.galeria_item img {
+    width: 100%;
+    min-height: 80px;
+}
+
+.header_three{
+    background-image: url('../img/header3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5% 8px 10% 8px;
+}
+.fundo_protecao{
+    backdrop-filter: blur(6px);
+    padding: 20px;
+}
+
+.header_four{
+    background: rgb(0,127,255);
+    background: radial-gradient(circle, rgba(0,127,255,1) 0%, rgba(0,95,255,1) 100%); 
+    padding: 5% 8px 10% 8px;
+}
+
+.header_five{
+    padding-top: 100px;
+    height: 700px;
+    background-image: url('../img/contact.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contato_protecao{
+    padding: 20px;
+    margin: 0 auto;
+    width: 60%;
+    background: rgb(0,127,255);
+    background: radial-gradient(circle, rgba(0,127,255,1) 0%, rgba(0,95,255,1) 100%); 
+    border: 4px solid #0258af;
+    border-radius: 20px;
+    height: 550px;
+}
+
+footer{
+    font-family: 'Montserrat';
+    font-size: small;
+    text-align: center;
+    background: rgb(0,127,255);
+    background: radial-gradient(circle, rgba(0,127,255,1) 0%, rgba(0,95,255,1) 100%); 
+}
+.maps{
+    float: right;
+    margin-top: -300px;
+    width: 350px; 
+    height: 300px;
+}
+.enviar1{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 14px ;
+   
+}
+.enviar1-azul{
+    background-color:  #dc143c;
+    box-shadow: 0 5px 0 #9b0624;
+}
+.enviar1-azul:hover{
+    background-color:#9b0624;
+} 
+.NOMBRE{
+    color: white;
+    font-family: 'Montserrat';
+    padding: 5px; 
+}
+.Email{
+    color: white;
+    font-family: 'Montserrat';
+    padding: 5px;
+}
+.Telefone{
+    color: white;
+    font-family: 'Montserrat';
+    padding: 5px;
+    
+}
+.Celular{
+    color: white;
+    font-family: 'Montserrat';
+    padding: 5px;
+}
+.Empresa{
+    color: white;
+    font-family: 'Montserrat';
+    padding: 5px;
+}
+.Mensagem{
+    color: white;
+    font-family: 'Montserrat';
+    padding: 5px;
+}
+textarea { 
+    resize: none;
+    width: 100%;
+    height: 140px;
+}
+.lado01{
+    display: inline-block;
+    width: 43%;
+}
+.lado01 > form > div > input{
+    width: 100%;
+}
+.contato_protecao > .lado02{
+    float: right;
+}
+
+@media (max-width:1800px) {
+    .contato_protecao{
+        width: 70%;
+        background-color: red;
+    }
+}
+@media (max-width:1550px) {
+    .contato_protecao{
+        width: 80%;
+        background-color: red;
+    }
+}
+@media (max-width:1350px) {
+    .lado01{
+        width: 90%;
+    }
+    .header_five{
+        height: 1300px;   
+    }
+    .contato_protecao > .lado02{
+        float: none;
+    }
+    .contato_protecao{
+        width: 60%;
+        height: 1200px;  
+    }
+    .lado02 > iframe{
+        width: 100%;
+    }
+}
+@media (max-width:1000px) {
+    .lado01 > div > input{
+        size: 100%;
+    }
+}
+
